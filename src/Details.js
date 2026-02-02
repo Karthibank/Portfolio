@@ -1,31 +1,24 @@
 // Enter all your detials in this file
 // Logo images
-import logogradient from "./assets/logo.svg";
+import logogradient from "./assets/logo.jpg";
 import logo from "./assets/logo2.svg";
 // Profile Image
 import profile from "./assets/profile.jpg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
-import sass from "./assets/techstack/sass.png";
 import js from "./assets/techstack/js.png";
 import react from "./assets/techstack/react.png";
-import redux from "./assets/techstack/redux.png";
-import tailwind from "./assets/techstack/tailwind.png";
 import bootstrap from "./assets/techstack/bootstrap.png";
 import vscode from "./assets/techstack/vscode.png";
 import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
-import npm from "./assets/techstack/npm.png";
-import postman from "./assets/techstack/postman.png";
-import figma from "./assets/techstack/figma.png";
+import cpp from "./assets/techstack/cpp"
+import java from "./assets/techstack/java"
+import python from "./assets/techstack/python"
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
 
 // Logos
 export const logos = {
@@ -35,18 +28,24 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
+  name: "Gayathri Maniraj M",
+  tagline: "Problem solver by logic, developer by passion",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `"A driven and quick-learning Fresher aiming
+for a Full Stack Developer role to apply
+strong foundational knowledge in front-end
+(HTML, CSS, JS, React) and back-end
+(Node.js, Django) technologies. Committed
+to continuous learning and delivering high
+quality, functional web solutions while
+collaborating effectively with development
+teams"`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+  linkdein: "https://www.linkedin.com/in/gayathri-maniraj-b616933a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  github: "https://github.com/gayathrim1220-art"
 };
 
 // Enter your Work Experience here
@@ -77,99 +76,58 @@ export const workDetails = [
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
-    Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Position: "MSC Computer Science",
+    Company: "VLB Janakiyammal College of  Arts and Science",
+    Location: "Coimbatore",
+    Duration: "2021 - 2023 ",
   },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Position: " BSC Computer Science",
+    Company: `VLB Janakiyammal College of  Arts and Science`,
+    Location: "Coimbatore",
+    Duration: "2018 - 2021 ",
   },
+  {
+    Position: " HSC & SSLC ",
+    Company: `Ashram     Matriculation Higher Secondary School`,
+    Location: "Coimbatore",
+    Duration: "2004 - 2018 ",
+  }
 ];
 
 // Tech Stack and Tools
 export const techStackDetails = {
+  cpp: cpp,
+  python: python,
+  java: java,
   html: html,
   css: css,
   js: js,
   react: react,
-  redux: redux,
-  sass: sass,
-  tailwind: tailwind,
   bootstrap: bootstrap,
   vscode: vscode,
-  postman: postman,
-  npm: npm,
   git: git,
   github: github,
-  figma: figma,
 };
 
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "Masking medical conf ident ial data using RSA cryptgraphy and bi t plane steganography",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `Masking confidential medical data using RSA cryptography and bit-plane steganography is a dual-layer security approach designed to protect patient information during transmission. It combines encryption (making data unreadable) with steganography (hiding the existence of data) to ensure high confidentiality and integrity in e-health applications. `,
+    techstack: "HTML/CSS, JavaScript"
   },
   {
-    title: "Project title 2",
+    title: "Online food order ing and del ivery system",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 3",
-    image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 4",
-    image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
+    description: `Online food ordering and delivery systems enable restaurants to accept orders via websites, apps, or social media, optimizing operations with real-time tracking, inventory management, and direct-to-customer delivery, often avoiding third-party commissions. These systems feature digital menus, secure online payments, and driver dispatch, providing a safe, fast, and, efficient experience. `,
+    techstack: "HTML/CSS, JavaScript"
+  }
 ];
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
+  email: "Gayathrim1220@gmail.com",
+  phone: "+91 98948 76115",
 };

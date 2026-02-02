@@ -16,7 +16,7 @@ function Project({ title, image, description, techstack, previewLink, githubLink
               className="stroke-dark-heading dark:stroke-white inline-block min-w-fit"
               width="20"
               height="20"
-              viewBox="0 0 20 20"
+              viewBox="20 20 20 20"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -39,7 +39,7 @@ function Project({ title, image, description, techstack, previewLink, githubLink
               rel="noreferrer noopener"
               className="underline pl-2 font-light dark:text-white"
             >
-              Live Preview
+            
             </a>
           </div>
           <div className="flex items-center">
@@ -64,7 +64,7 @@ function Project({ title, image, description, techstack, previewLink, githubLink
               rel="noreferrer noopener"
               className="underline pl-2 font-light dark:text-white"
             >
-              View Code
+            
             </a>
           </div>
         </div>
